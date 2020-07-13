@@ -6,7 +6,7 @@ define(['exports', 'external', './other'], function (exports, external, other) {
 
 	const { value } = other.default;
 
-	console.log(external__default.default, value);
+	console.log(external__default['default'], value);
 
 	var commonjs = 42;
 
