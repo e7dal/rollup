@@ -2,7 +2,7 @@ define(['exports', 'external', './other'], function (exports, external, other) {
 
 	function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex : { 'default': ex }; }
 
-	var external__default = _interopDefault(external);
+	var external__default = /*#__PURE__*/_interopDefault(external);
 
 	const { value } = other.default;
 
